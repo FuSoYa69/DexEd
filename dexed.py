@@ -10,7 +10,7 @@
 #  Python 3.3.2 with Tcl/Tk 8.5
 #
 
-from tkinter import *
+from Tkinter import *
 import datetime
 import re
 import itertools
@@ -450,8 +450,9 @@ textbox_input=Text(frame_main_top_L_bottom,background="white",font="courier 8",w
 textbox_input.grid(row=0, column=0, sticky="nsew", padx=2, pady=2)
 
 textbox_input.delete(1.0,END)
+# Put test inputs below.
 #textbox_input.insert(1.0,"a b c\nd e f\ng h i\n1 2 3")
-textbox_input.insert(1.0,"1 2 3 4.0e2 5.0e-3 5.66e+1")
+#textbox_input.insert(1.0,"1 2 3 4.0e2 5.0e-3 5.66e+1")
 
 scrollbar_Y_input=Scrollbar(frame_main_top_L_bottom, orient=VERTICAL)
 scrollbar_Y_input.grid(row=0, column=1, sticky="nsew")
