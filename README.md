@@ -23,3 +23,8 @@ Building .app for Mac OSX
 Use the included `build_app.sh` to compile the code with X11 for use in a Mac
 OSX environment.  Note that the included icon can be assigned to the executable
 to differentiate it from other applications.
+
+----------
+Screenshot
+----------
+![Main Window](/include_readme/screenshot_mac_osx_109.png?raw=true "Main Window")
