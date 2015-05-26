@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1180</width>
+    <width>1100</width>
     <height>795</height>
    </rect>
   </property>
@@ -18,7 +18,7 @@
     <property name="geometry">
      <rect>
       <x>10</x>
-      <y>35</y>
+      <y>50</y>
       <width>500</width>
       <height>300</height>
      </rect>
@@ -45,26 +45,7 @@
      <enum>QPlainTextEdit::NoWrap</enum>
     </property>
     <property name="plainText">
-     <string>         1         2         3         4         5         6         7         8
-12345678901234567890123456789012345678901234567890123456789012345678901234567890
-3
-4
-5
-6
-7
-8
-9
-10
-1
-2
-3
-4
-5
-6
-7
-8
-9
-20   </string>
+     <string/>
     </property>
     <property name="backgroundVisible">
      <bool>false</bool>
@@ -74,7 +55,7 @@
     <property name="geometry">
      <rect>
       <x>590</x>
-      <y>35</y>
+      <y>50</y>
       <width>500</width>
       <height>300</height>
      </rect>
@@ -108,218 +89,20 @@
     <property name="geometry">
      <rect>
       <x>520</x>
-      <y>35</y>
+      <y>50</y>
       <width>60</width>
       <height>300</height>
      </rect>
     </property>
     <property name="text">
-     <string>&lt;--</string>
+     <string>&lt;-</string>
     </property>
    </widget>
    <widget class="QWidget" name="layoutWidget">
     <property name="geometry">
      <rect>
       <x>10</x>
-      <y>1</y>
-      <width>501</width>
-      <height>32</height>
-     </rect>
-    </property>
-    <layout class="QHBoxLayout" name="layout_Input">
-     <item>
-      <widget class="QPushButton" name="btn_Input_Clear">
-       <property name="text">
-        <string>Clear Input</string>
-       </property>
-      </widget>
-     </item>
-     <item>
-      <widget class="QLabel" name="lbl_Input_Field">
-       <property name="text">
-        <string>Input Field</string>
-       </property>
-       <property name="alignment">
-        <set>Qt::AlignCenter</set>
-       </property>
-      </widget>
-     </item>
-     <item>
-      <widget class="QPushButton" name="btn_Input_Copy">
-       <property name="text">
-        <string>Copy to Clipboard</string>
-       </property>
-      </widget>
-     </item>
-    </layout>
-   </widget>
-   <widget class="QWidget" name="layoutWidget">
-    <property name="geometry">
-     <rect>
-      <x>590</x>
-      <y>1</y>
-      <width>501</width>
-      <height>32</height>
-     </rect>
-    </property>
-    <layout class="QHBoxLayout" name="layout_Output">
-     <item>
-      <widget class="QPushButton" name="btn_Output_Clear">
-       <property name="text">
-        <string>Clear Output</string>
-       </property>
-      </widget>
-     </item>
-     <item>
-      <widget class="QLabel" name="lbl_Output_Field">
-       <property name="text">
-        <string>Output Field</string>
-       </property>
-       <property name="alignment">
-        <set>Qt::AlignCenter</set>
-       </property>
-      </widget>
-     </item>
-     <item>
-      <widget class="QPushButton" name="btn_Output_Copy">
-       <property name="text">
-        <string>Copy to Clipboard</string>
-       </property>
-      </widget>
-     </item>
-    </layout>
-   </widget>
-   <widget class="QWidget" name="layoutWidget">
-    <property name="geometry">
-     <rect>
-      <x>10</x>
-      <y>340</y>
-      <width>1081</width>
-      <height>41</height>
-     </rect>
-    </property>
-    <layout class="QHBoxLayout" name="horizontalLayout">
-     <item>
-      <widget class="QPushButton" name="btn_">
-       <property name="text">
-        <string>Y to X</string>
-       </property>
-      </widget>
-     </item>
-     <item>
-      <widget class="QPushButton" name="btn_1">
-       <property name="text">
-        <string>X to Y</string>
-       </property>
-      </widget>
-     </item>
-     <item>
-      <widget class="QPushButton" name="btn_5">
-       <property name="text">
-        <string>Transpose Data</string>
-       </property>
-      </widget>
-     </item>
-     <item>
-      <widget class="QPushButton" name="btn_2">
-       <property name="text">
-        <string>Array to Indexed List</string>
-       </property>
-      </widget>
-     </item>
-     <item>
-      <widget class="QPushButton" name="btn_3">
-       <property name="text">
-        <string>Reverse Lines</string>
-       </property>
-      </widget>
-     </item>
-     <item>
-      <widget class="QPushButton" name="btn_4">
-       <property name="text">
-        <string>Reverse Columns</string>
-       </property>
-      </widget>
-     </item>
-     <item>
-      <widget class="QPushButton" name="btn_6">
-       <property name="text">
-        <string>Convert to Uppercase</string>
-       </property>
-      </widget>
-     </item>
-     <item>
-      <widget class="QPushButton" name="btn_7">
-       <property name="text">
-        <string>Convert to Lowercase</string>
-       </property>
-      </widget>
-     </item>
-    </layout>
-   </widget>
-   <widget class="QWidget" name="layoutWidget">
-    <property name="geometry">
-     <rect>
-      <x>10</x>
-      <y>381</y>
-      <width>1070</width>
-      <height>41</height>
-     </rect>
-    </property>
-    <layout class="QHBoxLayout" name="horizontalLayout_2">
-     <item>
-      <widget class="QComboBox" name="comboBox"/>
-     </item>
-     <item>
-      <widget class="QLineEdit" name="lineEdit"/>
-     </item>
-     <item>
-      <widget class="QPushButton" name="btn_8">
-       <property name="text">
-        <string>Format Convert</string>
-       </property>
-      </widget>
-     </item>
-     <item>
-      <widget class="QLabel" name="label">
-       <property name="text">
-        <string>Maximum Columns:</string>
-       </property>
-       <property name="alignment">
-        <set>Qt::AlignCenter</set>
-       </property>
-      </widget>
-     </item>
-     <item>
-      <widget class="QLineEdit" name="lineEdit_2"/>
-     </item>
-     <item>
-      <widget class="QLabel" name="label_2">
-       <property name="text">
-        <string>Maximum Column Width:</string>
-       </property>
-       <property name="alignment">
-        <set>Qt::AlignCenter</set>
-       </property>
-      </widget>
-     </item>
-     <item>
-      <widget class="QLineEdit" name="lineEdit_3"/>
-     </item>
-     <item>
-      <widget class="QPushButton" name="btn_9">
-       <property name="text">
-        <string>Convert to Table</string>
-       </property>
-      </widget>
-     </item>
-    </layout>
-   </widget>
-   <widget class="QWidget" name="layoutWidget">
-    <property name="geometry">
-     <rect>
-      <x>10</x>
-      <y>420</y>
+      <y>590</y>
       <width>1070</width>
       <height>41</height>
      </rect>
@@ -359,7 +142,7 @@
     <property name="geometry">
      <rect>
       <x>10</x>
-      <y>460</y>
+      <y>640</y>
       <width>1070</width>
       <height>41</height>
      </rect>
@@ -388,22 +171,325 @@
      </item>
     </layout>
    </widget>
-   <zorder>layoutWidget</zorder>
-   <zorder>layoutWidget</zorder>
-   <zorder>layoutWidget</zorder>
+   <widget class="QPushButton" name="btn_">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>360</y>
+      <width>85</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Y to X</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_1">
+    <property name="geometry">
+     <rect>
+      <x>95</x>
+      <y>360</y>
+      <width>85</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>X to Y</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_5">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>360</y>
+      <width>135</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Transpose Data</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_2">
+    <property name="geometry">
+     <rect>
+      <x>315</x>
+      <y>360</y>
+      <width>165</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Array to Indexed List</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_3">
+    <property name="geometry">
+     <rect>
+      <x>480</x>
+      <y>360</y>
+      <width>115</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Reverse Lines</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_4">
+    <property name="geometry">
+     <rect>
+      <x>595</x>
+      <y>360</y>
+      <width>145</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Reverse Columns</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_6">
+    <property name="geometry">
+     <rect>
+      <x>740</x>
+      <y>360</y>
+      <width>175</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Convert to Uppercase</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_7">
+    <property name="geometry">
+     <rect>
+      <x>915</x>
+      <y>360</y>
+      <width>175</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Convert to Lowercase</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_Input_Clear">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>200</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Clear Input</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lbl_Input_Field">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>10</y>
+      <width>100</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="text">
+     <string>Input Field</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_Input_Copy">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>10</y>
+      <width>200</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Copy to Clipboard</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_Output_Clear">
+    <property name="geometry">
+     <rect>
+      <x>590</x>
+      <y>10</y>
+      <width>200</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Clear Output</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lbl_Output_Field">
+    <property name="geometry">
+     <rect>
+      <x>790</x>
+      <y>10</y>
+      <width>100</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Output Field</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_Output_Copy">
+    <property name="geometry">
+     <rect>
+      <x>890</x>
+      <y>10</y>
+      <width>200</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Copy to Clipboard</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="comboBox">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>392</y>
+      <width>111</width>
+      <height>26</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>390</y>
+      <width>115</width>
+      <height>30</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_8">
+    <property name="geometry">
+     <rect>
+      <x>239</x>
+      <y>534</y>
+      <width>140</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Format Convert</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>387</x>
+      <y>534</y>
+      <width>126</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Maximum Columns:</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_2">
+    <property name="geometry">
+     <rect>
+      <x>521</x>
+      <y>538</y>
+      <width>116</width>
+      <height>21</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>647</x>
+      <y>534</y>
+      <width>160</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Maximum Column Width:</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_3">
+    <property name="geometry">
+     <rect>
+      <x>815</x>
+      <y>538</y>
+      <width>116</width>
+      <height>21</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_9">
+    <property name="geometry">
+     <rect>
+      <x>933</x>
+      <y>534</y>
+      <width>147</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Convert to Table</string>
+    </property>
+   </widget>
    <zorder>layoutWidget</zorder>
    <zorder>layoutWidget</zorder>
    <zorder>Text_Input</zorder>
    <zorder>Text_Output</zorder>
    <zorder>Output2Input</zorder>
    <zorder>layoutWidget</zorder>
+   <zorder>btn_</zorder>
+   <zorder>btn_1</zorder>
+   <zorder>btn_5</zorder>
+   <zorder>btn_2</zorder>
+   <zorder>btn_3</zorder>
+   <zorder>btn_4</zorder>
+   <zorder>btn_6</zorder>
+   <zorder>btn_7</zorder>
+   <zorder>btn_Input_Clear</zorder>
+   <zorder>lbl_Input_Field</zorder>
+   <zorder>btn_Input_Copy</zorder>
+   <zorder>btn_Output_Clear</zorder>
+   <zorder>lbl_Output_Field</zorder>
+   <zorder>btn_Output_Copy</zorder>
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>1180</width>
+     <width>1100</width>
      <height>22</height>
     </rect>
    </property>
