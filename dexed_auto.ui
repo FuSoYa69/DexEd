@@ -98,79 +98,6 @@
      <string>&lt;-</string>
     </property>
    </widget>
-   <widget class="QWidget" name="layoutWidget">
-    <property name="geometry">
-     <rect>
-      <x>10</x>
-      <y>590</y>
-      <width>1070</width>
-      <height>41</height>
-     </rect>
-    </property>
-    <layout class="QHBoxLayout" name="horizontalLayout_3">
-     <item>
-      <widget class="QPushButton" name="btn_10">
-       <property name="text">
-        <string>Spaces to Tabs</string>
-       </property>
-      </widget>
-     </item>
-     <item>
-      <widget class="QPushButton" name="btn_11">
-       <property name="text">
-        <string>Tabs to Spaces</string>
-       </property>
-      </widget>
-     </item>
-     <item>
-      <widget class="QPushButton" name="btn_12">
-       <property name="text">
-        <string>Remove Blank Lines</string>
-       </property>
-      </widget>
-     </item>
-     <item>
-      <widget class="QPushButton" name="btn_13">
-       <property name="text">
-        <string>Collapse Spaces to Single Space</string>
-       </property>
-      </widget>
-     </item>
-    </layout>
-   </widget>
-   <widget class="QWidget" name="layoutWidget">
-    <property name="geometry">
-     <rect>
-      <x>10</x>
-      <y>640</y>
-      <width>1070</width>
-      <height>41</height>
-     </rect>
-    </property>
-    <layout class="QHBoxLayout" name="horizontalLayout_4">
-     <item>
-      <widget class="QPushButton" name="btn_14">
-       <property name="text">
-        <string>Count Line Length</string>
-       </property>
-      </widget>
-     </item>
-     <item>
-      <widget class="QPushButton" name="btn_16">
-       <property name="text">
-        <string>Count Words on Line</string>
-       </property>
-      </widget>
-     </item>
-     <item>
-      <widget class="QPushButton" name="btn_15">
-       <property name="text">
-        <string>Count Characters on Line</string>
-       </property>
-      </widget>
-     </item>
-    </layout>
-   </widget>
    <widget class="QPushButton" name="btn_">
     <property name="geometry">
      <rect>
@@ -368,8 +295,8 @@
    <widget class="QComboBox" name="comboBox">
     <property name="geometry">
      <rect>
-      <x>10</x>
-      <y>400</y>
+      <x>7</x>
+      <y>396</y>
       <width>130</width>
       <height>26</height>
      </rect>
@@ -378,8 +305,8 @@
    <widget class="QLineEdit" name="lineEdit">
     <property name="geometry">
      <rect>
-      <x>150</x>
-      <y>400</y>
+      <x>147</x>
+      <y>396</y>
       <width>100</width>
       <height>26</height>
      </rect>
@@ -388,8 +315,8 @@
    <widget class="QPushButton" name="btn_8">
     <property name="geometry">
      <rect>
-      <x>260</x>
-      <y>400</y>
+      <x>257</x>
+      <y>396</y>
       <width>140</width>
       <height>30</height>
      </rect>
@@ -401,8 +328,8 @@
    <widget class="QLabel" name="label">
     <property name="geometry">
      <rect>
-      <x>387</x>
-      <y>534</y>
+      <x>400</x>
+      <y>400</y>
       <width>126</width>
       <height>16</height>
      </rect>
@@ -417,8 +344,8 @@
    <widget class="QLineEdit" name="lineEdit_2">
     <property name="geometry">
      <rect>
-      <x>521</x>
-      <y>538</y>
+      <x>530</x>
+      <y>400</y>
       <width>116</width>
       <height>21</height>
      </rect>
@@ -427,8 +354,8 @@
    <widget class="QLabel" name="label_2">
     <property name="geometry">
      <rect>
-      <x>647</x>
-      <y>534</y>
+      <x>660</x>
+      <y>400</y>
       <width>160</width>
       <height>16</height>
      </rect>
@@ -443,8 +370,8 @@
    <widget class="QLineEdit" name="lineEdit_3">
     <property name="geometry">
      <rect>
-      <x>815</x>
-      <y>538</y>
+      <x>820</x>
+      <y>400</y>
       <width>116</width>
       <height>21</height>
      </rect>
@@ -453,14 +380,105 @@
    <widget class="QPushButton" name="btn_9">
     <property name="geometry">
      <rect>
-      <x>933</x>
-      <y>534</y>
+      <x>940</x>
+      <y>390</y>
       <width>147</width>
       <height>32</height>
      </rect>
     </property>
     <property name="text">
      <string>Convert to Table</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_10">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>440</y>
+      <width>266</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Spaces to Tabs</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_11">
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>440</y>
+      <width>181</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Tabs to Spaces</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_12">
+    <property name="geometry">
+     <rect>
+      <x>460</x>
+      <y>440</y>
+      <width>301</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Remove Blank Lines</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_13">
+    <property name="geometry">
+     <rect>
+      <x>780</x>
+      <y>440</y>
+      <width>261</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Collapse Spaces to Single Space</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_16">
+    <property name="geometry">
+     <rect>
+      <x>250</x>
+      <y>470</y>
+      <width>261</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Count Words on Line</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_15">
+    <property name="geometry">
+     <rect>
+      <x>510</x>
+      <y>470</y>
+      <width>221</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Count Characters on Line</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_14">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>470</y>
+      <width>241</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Count Line Length</string>
     </property>
    </widget>
    <zorder>comboBox</zorder>
@@ -471,11 +489,9 @@
    <zorder>label_2</zorder>
    <zorder>lineEdit_3</zorder>
    <zorder>btn_9</zorder>
-   <zorder>layoutWidget</zorder>
    <zorder>Text_Input</zorder>
    <zorder>Text_Output</zorder>
    <zorder>Output2Input</zorder>
-   <zorder>layoutWidget</zorder>
    <zorder>btn_</zorder>
    <zorder>btn_1</zorder>
    <zorder>btn_5</zorder>
@@ -490,6 +506,14 @@
    <zorder>btn_Output_Clear</zorder>
    <zorder>lbl_Output_Field</zorder>
    <zorder>btn_Output_Copy</zorder>
+   <zorder>btn_10</zorder>
+   <zorder>btn_11</zorder>
+   <zorder>btn_12</zorder>
+   <zorder>btn_13</zorder>
+   <zorder>btn_14</zorder>
+   <zorder>btn_16</zorder>
+   <zorder>btn_15</zorder>
+   <zorder>btn_14</zorder>
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
